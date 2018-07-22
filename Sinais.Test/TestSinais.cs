@@ -9,6 +9,7 @@ namespace Sinais.Test
         [TestCase("{[()]}", true)]
         [TestCase("{[(])}", false)]
         [TestCase("{{[[(())]]}}", true)]
+        [TestCase("{{[[(()))]]}}", false)]
         public void TestSinaisValida(string sequencia, bool resultado)
         {
             var sinal = new Sinal();
