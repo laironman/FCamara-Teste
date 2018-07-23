@@ -8,7 +8,14 @@ namespace SalveRian
     {
         public int SaveSoldier(int soldiers)
         {
-            return 0;
+            int resultado = 0;
+            int morto = 2;
+
+            for (int i = 2; i <= soldiers; i++)
+            {
+                resultado = (morto + resultado) % i;
+            }
+            return (resultado+1);
         }
     }
 }
