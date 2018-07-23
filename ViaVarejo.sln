@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sinais", "Sinais\Sinais.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sinais.Test", "Sinais.Test\Sinais.Test.csproj", "{7A80AB11-9DA2-4C30-86B5-60BD108255D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalveRian", "SalveRian\SalveRian.csproj", "{85C29D2C-57B3-46A1-9165-DC27EBC1D6B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalveRian.Test", "SalveRian.Test\SalveRian.Test.csproj", "{C5F4C2E4-F737-48FC-8A56-D8C62EBDDAEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{7A80AB11-9DA2-4C30-86B5-60BD108255D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A80AB11-9DA2-4C30-86B5-60BD108255D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A80AB11-9DA2-4C30-86B5-60BD108255D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85C29D2C-57B3-46A1-9165-DC27EBC1D6B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85C29D2C-57B3-46A1-9165-DC27EBC1D6B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85C29D2C-57B3-46A1-9165-DC27EBC1D6B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85C29D2C-57B3-46A1-9165-DC27EBC1D6B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F4C2E4-F737-48FC-8A56-D8C62EBDDAEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F4C2E4-F737-48FC-8A56-D8C62EBDDAEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F4C2E4-F737-48FC-8A56-D8C62EBDDAEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F4C2E4-F737-48FC-8A56-D8C62EBDDAEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
